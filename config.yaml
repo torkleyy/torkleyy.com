@@ -200,6 +200,12 @@ menu:
           params:
               icon: brand-twitter
 
+        - identifier: rss
+          name: RSS Feed
+          url: /rss-feed
+          params:
+              icon: rss
+
 related:
     includeNewer: true
     threshold: 60

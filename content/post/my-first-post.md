@@ -5,8 +5,8 @@ draft: false
 tags:
 - rust
 - dev
-caregories:
-- posts
+categories:
+- blog
 ---
 
 Hello Hugo
