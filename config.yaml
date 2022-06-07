@@ -66,7 +66,7 @@ params:
         provider: disqus
 
         disqusjs:
-            shortname:
+            shortname: torkleyy
             apiUrl:
             apiKey:
             admin:
@@ -145,12 +145,12 @@ params:
             # - type: archives
             #   params:
             #       limit: 5
-            # - type: categories
-            #   params:
-            #       limit: 10
-            #- type: tag-cloud
-            #  params:
-            #      limit: 10
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
         page:
             - type: toc
 
@@ -191,20 +191,30 @@ menu:
         - identifier: github
           name: GitHub
           url: https://github.com/torkleyy
+          weight: 1
           params:
               icon: brand-github
 
         - identifier: twitter
           name: Twitter
           url: https://twitter.com/torkleyy
+          weight: 4
           params:
               icon: brand-twitter
 
         - identifier: rss
           name: RSS Feed
           url: /rss-feed
+          weight: 2
           params:
               icon: rss
+
+        - identifier: pgp
+          name: PGP Key
+          url: /torkleyy.asc
+          weight: 5
+          params:
+              icon: key
 
 related:
     includeNewer: true
